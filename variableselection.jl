@@ -1,8 +1,10 @@
- 
+module Variable Selection
+
 using DataFrames
 using Statistics
 using StatsBase
 using HypothesisTests
+export variable_importance
 
 
 # Function for cat/con
@@ -84,3 +86,4 @@ function gamma(cat_var::Vector{String}, con_var::Vector{<: Number})
     return results
   end
 
+end
