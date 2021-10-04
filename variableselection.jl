@@ -84,4 +84,3 @@ function gamma(cat_var::Vector{String}, con_var::Vector{<: Number})
     return results
   end
 
-println("test")
